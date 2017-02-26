@@ -32,10 +32,10 @@ import GiftedAvatar from './GiftedAvatar';
 // TODO move these values to Constants.js (also with used colors #b2b2b2)
 const MIN_COMPOSER_HEIGHT = Platform.select({
   ios: 33,
-  android: 41,
+  android: 0,
 });
 const MAX_COMPOSER_HEIGHT = 100;
-const MIN_INPUT_TOOLBAR_HEIGHT = 44;
+const MIN_INPUT_TOOLBAR_HEIGHT = 0;
 
 class GiftedChat extends React.Component {
   constructor(props) {
